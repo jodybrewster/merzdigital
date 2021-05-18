@@ -1,9 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mzd-primary-color:  #991b1b;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: radial-gradient(93.02% 93.02% at 50% 6.35%, #DEAAAE 0%, #C47D82 100%);
+  font-size: 13px;
+  height: 100%;
 }
 
 a {
@@ -14,3 +25,9 @@ a {
 * {
   box-sizing: border-box;
 }
+
+mzd-primary-bg {
+  background-color: var(--mzd-primary-color);
+}
+
+
